@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS students(id INTEGER PRIMARY KEY, firstname VARCHAR(40), lastname VARCHAR(80), age INTEGER CHECK (age > 0));
+insert into students VALUES(1, 'Fred', 'Flintstone', 35);
+insert into students VALUES(2, 'Wilma', 'Flintstone', 29);
+insert into students VALUES(3, 'Barney', 'Rubble', 33);
+insert into students VALUES(4, 'Betty', 'Rubble', 29);
+insert into students VALUES(5, 'Pebbles', 'Flintstone', 1);
+insert into students VALUES(6, 'Bam-Bam', 'Rubble', 1);
+insert into students VALUES(7, 'Yogi', 'Bear', 10);
+insert into students VALUES(8, 'Boo-Boo', 'Bear', 5);
+insert into students VALUES(9, 'Ranger', 'Smith', 46);
